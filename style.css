@@ -70,12 +70,14 @@ nav ul li a:hover {
     background: #E02C6D;
     border: none;
     color: #fff;
-   transition: .5s;
+    transition: .5s;
 }
-.btn:hover{
-    transform: rotate(25deg)  scale(1.2);;
-   
-    
+
+.btn:hover {
+    transform: rotate(25deg) scale(1.2);
+    ;
+
+
 }
 
 .banner-img {
@@ -163,12 +165,13 @@ nav ul li a:hover {
     transition: .5s;
 
 }
-.btn2:hover{
+
+.btn2:hover {
     transform: rotate(25deg);
 }
 
 /* end feature */
-.footer{
+.footer {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -177,19 +180,22 @@ nav ul li a:hover {
     justify-content: center;
     margin-top: 120px;
     gap: 20px;
-   background-color: #0A0826;
+    background-color: #0A0826;
 }
+
 .footer-head {
-    color:#fff;
+    color: #fff;
     font-size: 24px;
     font-weight: 700;
 
 }
-.icon{
+
+.icon {
     color: #FFF;
     gap: 20px;
 
 }
+
 /* strat footer */
 
 
@@ -308,6 +314,13 @@ small p {
         font-weight: 700;
     }
 
+    .feature-img {
+        width: 299px;
+        height: 188px;
+        align-items: center;
+        display: flex;
+    }
+
     .btn2 {
         margin-left: 100px;
     }
@@ -319,7 +332,7 @@ small p {
 }
 
 @media screen and (min-width:570px) and (max-width:990) {
-    .popular-content{
-        grid-template-columns: repeat(2,1fr);
+    .popular-content {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
